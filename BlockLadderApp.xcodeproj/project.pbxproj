@@ -18,16 +18,6 @@
 		BB7E9B2620C66C6300EAD16B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B1120C66C2500EAD16B /* NetworkExtension.framework */; };
 		BB7E9B2920C670A200EAD16B /* VpnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E9B2820C670A200EAD16B /* VpnManager.swift */; };
 		BB7E9B2B20C6711E00EAD16B /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E9B2A20C6711E00EAD16B /* Notifications.swift */; };
-		BB7E9B3720C6787600EAD16B /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B2D20C6787500EAD16B /* Sodium.framework */; };
-		BB7E9B3820C6787600EAD16B /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B2E20C6787500EAD16B /* lwip.framework */; };
-		BB7E9B3920C6787600EAD16B /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B2F20C6787500EAD16B /* MMDB.framework */; };
-		BB7E9B3A20C6787600EAD16B /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3020C6787500EAD16B /* NEKit.framework */; };
-		BB7E9B3B20C6787600EAD16B /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3120C6787500EAD16B /* Yaml.framework */; };
-		BB7E9B3C20C6787600EAD16B /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3220C6787500EAD16B /* CocoaLumberjack.framework */; };
-		BB7E9B3D20C6787600EAD16B /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3320C6787500EAD16B /* tun2socks.framework */; };
-		BB7E9B3E20C6787600EAD16B /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3420C6787500EAD16B /* CocoaAsyncSocket.framework */; };
-		BB7E9B3F20C6787600EAD16B /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3520C6787500EAD16B /* Resolver.framework */; };
-		BB7E9B4020C6787600EAD16B /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3620C6787500EAD16B /* CocoaLumberjackSwift.framework */; };
 		BB7E9B4120C679B200EAD16B /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3420C6787500EAD16B /* CocoaAsyncSocket.framework */; };
 		BB7E9B4220C679B200EAD16B /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3220C6787500EAD16B /* CocoaLumberjack.framework */; };
 		BB7E9B4320C679B200EAD16B /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E9B3620C6787500EAD16B /* CocoaLumberjackSwift.framework */; };
@@ -100,16 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7E9B1220C66C2500EAD16B /* NetworkExtension.framework in Frameworks */,
-				BB7E9B3720C6787600EAD16B /* Sodium.framework in Frameworks */,
-				BB7E9B3820C6787600EAD16B /* lwip.framework in Frameworks */,
-				BB7E9B3920C6787600EAD16B /* MMDB.framework in Frameworks */,
-				BB7E9B3A20C6787600EAD16B /* NEKit.framework in Frameworks */,
-				BB7E9B3B20C6787600EAD16B /* Yaml.framework in Frameworks */,
-				BB7E9B3C20C6787600EAD16B /* CocoaLumberjack.framework in Frameworks */,
-				BB7E9B3D20C6787600EAD16B /* tun2socks.framework in Frameworks */,
-				BB7E9B3E20C6787600EAD16B /* CocoaAsyncSocket.framework in Frameworks */,
-				BB7E9B3F20C6787600EAD16B /* Resolver.framework in Frameworks */,
-				BB7E9B4020C6787600EAD16B /* CocoaLumberjackSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -515,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -543,7 +523,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexdai.BlockLadderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -567,7 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexdai.BlockLadderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -583,6 +563,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,7 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexdai.BlockLadderApp.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -607,6 +588,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -615,7 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexdai.BlockLadderApp.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

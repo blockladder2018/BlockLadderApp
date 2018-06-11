@@ -156,7 +156,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
                 
             ]
         }
-        networkSettings.ipv4Settings = ipv4Settings
+        networkSettings.iPv4Settings = ipv4Settings
         
         let proxySettings = NEProxySettings()
         proxySettings.httpEnabled = true
